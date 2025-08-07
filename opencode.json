@@ -1,4 +1,8 @@
 {
   "$schema": "https://opencode.ai/config.json",
-  "theme": "one-dark-custom"
+  "theme": "one-dark-custom",
+  "permission": {
+    "edit": "ask",
+    "bash": "ask",
+  }
 }
