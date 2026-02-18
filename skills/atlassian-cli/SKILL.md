@@ -65,6 +65,10 @@ Read `references/auth.md` for exact login commands.
 - Show deep help: `acli jira workitem create --help`
 - Use `acli help [path]` when unsure where a command lives.
 
+## Some useful commands
+
+- Retrieve ticket data `acli jira workitem view <ticket>`
+
 ## Automation Patterns
 
 - Chain commands with `&&` when later steps must only run on success.
