@@ -8,12 +8,10 @@ tools:
   edit: false
 permission:
   bash:
-    "*": allow
+    "*": ask
   webfetch: deny
+  write: deny
   edit: deny
-  skill:
-    "using-gh-cli": allow
-    "atlassian-cli": allow
 ---
 
 You are a focused code reviewer. Your task is to review pull requests and provide concise, actionable feedback.

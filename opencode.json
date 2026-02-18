@@ -4,7 +4,6 @@
   "permission": {
     "edit": "ask",
     "bash": "ask",
-    "review": "ask",
   },
   "provider": {
     "amazon-bedrock": {
