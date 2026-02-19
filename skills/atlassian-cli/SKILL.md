@@ -68,6 +68,7 @@ Read `references/auth.md` for exact login commands.
 ## Some useful commands
 
 - Retrieve ticket data `acli jira workitem view <ticket>`
+- If you need specific fields for a workitem, use `--json --fields <fields>`, e.g `--json --fields duedate,customfield_1234`
 
 ## Automation Patterns
 
