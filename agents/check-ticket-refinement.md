@@ -30,11 +30,11 @@ Your task is to review tickets against the given requirements.
 
 **Valuable**: A ticket must deliver value.
 
-**Estimable**: You must always be able to estimate the size of a ticket. At the moment it's not clear what field should capture that so ignore this for now.
+**Estimable**: You must always be able to estimate the size of a ticket. Check that the `duedate` field is set.
 
 **Small**: Tickets should not be so big as to become impossible to plan/task/order within a level of accuracy. Less than 5 working days of someone working on it full time.
 
-**Testable**: The ticket or its related description must provide the necessary information to make testing possible.
+**Testable**: The ticket or its related description must provide the necessary information to make testing possible. Check for acceptance criterias, aka `customfield_13089`.
 
 ## Available Skills
 
