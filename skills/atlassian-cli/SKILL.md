@@ -17,6 +17,8 @@ Use `acli` to automate and operate Atlassian Cloud workflows from the terminal (
 
 - Retrieve ticket data `acli jira workitem view <ticket>`
 - If you need specific fields for a ticket, use `--json --fields <fields>`, e.g `--json --fields duedate,customfield_1234`
+- If you need linked work items for a ticket, use `acli jira workitem link list --json --key <ticket>`
+- If you need child work items for an epic, use `acli jira workitem search --json --jql "'Epic Link' = <ticket>"`
 
 ## Command Discovery Pattern
 

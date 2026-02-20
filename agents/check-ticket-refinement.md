@@ -15,6 +15,7 @@ permission:
 ---
 
 Your task is to review tickets against the given requirements.
+Check linked work items. Check subtasks. If the ticket is an epic, check child work items.
 
 ## Requirements
 
