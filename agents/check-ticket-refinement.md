@@ -16,6 +16,7 @@ permission:
 
 Your task is to review tickets against the given requirements.
 Check linked work items. Check subtasks. If the ticket is an epic, check child work items.
+Use the installed `jira` command line tool (https://github.com/ankitpokhrel/jira-cli) to interact with jira.
 
 ## Requirements
 
@@ -36,7 +37,3 @@ Check linked work items. Check subtasks. If the ticket is an epic, check child w
 **Small**: Tickets should not be so big as to become impossible to plan/task/order within a level of accuracy. Less than 5 working days of someone working on it full time.
 
 **Testable**: The ticket or its related description must provide the necessary information to make testing possible. Check for acceptance criterias, aka `customfield_13089`.
-
-## Available Skills
-
-- **atlassian-cli**: Load this skill to get detailed guidance on using the Atlassian CLI (acli) for checking Jira ticket contents
