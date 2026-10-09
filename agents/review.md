@@ -6,14 +6,19 @@ tools:
   webfetch: false
   write: false
   edit: false
-permission:
-  bash:
-    "*": ask
-  webfetch: deny
-  write: deny
-  edit: deny
-  skill:
-    "using-gh-cli": allow
+permissions:
+  - action: shell
+    resource: "*"
+    effect: ask
+  - action: webfetch
+    resource: "*"
+    effect: deny
+  - action: edit
+    resource: "*"
+    effect: deny
+  - action: skill
+    resource: "using-gh-cli"
+    effect: allow
 ---
 
 You are a focused code reviewer. Your task is to review pull requests and provide concise, actionable feedback.

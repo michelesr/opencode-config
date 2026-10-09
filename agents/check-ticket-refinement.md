@@ -6,12 +6,16 @@ tools:
   webfetch: false
   write: false
   edit: false
-permission:
-  bash:
-    "*": ask
-  webfetch: deny
-  write: deny
-  edit: deny
+permissions:
+  - action: shell
+    resource: "*"
+    effect: ask
+  - action: webfetch
+    resource: "*"
+    effect: deny
+  - action: edit
+    resource: "*"
+    effect: deny
 ---
 
 Your task is to review tickets against the given requirements.

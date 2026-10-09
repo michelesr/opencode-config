@@ -1,13 +1,12 @@
 {
   "$schema": "https://opencode.ai/config.json",
-  "theme": "one-dark-custom",
-  "permission": {
-    "edit": "ask",
-    "bash": "ask",
-  },
-  "provider": {
+  "permissions": [
+    { "action": "shell", "resource": "*", "effect": "ask" },
+    { "action": "edit", "resource": "*", "effect": "ask" },
+  ],
+  "providers": {
     "amazon-bedrock": {
-      "options": {
+      "settings": {
         "region": "eu-west-1",
         "profile": "bedrock",
       }
