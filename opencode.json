@@ -4,6 +4,13 @@
     { "action": "shell", "resource": "*", "effect": "ask" },
     { "action": "edit", "resource": "*", "effect": "ask" },
   ],
+  "agents": {
+    "plan": {
+      "permissions": [
+        { "action": "edit", "resource": "*", "effect": "deny" },
+      ],
+    },
+  },
   "providers": {
     "amazon-bedrock": {
       "settings": {
