@@ -10,6 +10,9 @@
         { "action": "edit", "resource": "*", "effect": "deny" },
       ],
     },
+    "title": {
+      "model": "amazon-bedrock/eu.anthropic.claude-haiku-5-5",
+    },
   },
   "providers": {
     "amazon-bedrock": {
